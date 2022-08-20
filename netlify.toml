@@ -1,0 +1,6 @@
+[build.environment]
+  NPM_FLAGS = "--version"
+  NPM_CONFIG_LEGACY_PEER_DEPS = "true"
+[build]
+#    publish = ".dist"
+    command = "npm install pnpm && pnpm run build"
